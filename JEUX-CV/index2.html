@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="decor">
+        <img id="mondecor" src="image/decors2bis.gif" alt="">
+
+        <div id="masque">
+
+            <img id="personage1" src="image/perso.png" alt="">
+
+        </div>
+    </div>
+
+    <script>
+        var monTimestamp;
+      var maFonction = function(timestamp, vitesse){
+
+        
+        if(!monTimestamp){
+
+            monTimestamp = timestamp;
+
+            }
+        if(timestamp - monTimestamp > vitesse){
+
+                monTimestamp = timestamp;
+
+            }
+        
+         
+
+
+      }
+      maFonction(timestamp, 500);
+
+
+
+
+
+    </script>
+</body>
+
+</html>

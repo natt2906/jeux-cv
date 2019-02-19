@@ -1,0 +1,38 @@
+var canevas = document.getElementById('myCanvas'); // creation de la zone de dessin
+        var ctx = canevas.getContext('2d');
+        //declaration des variables globales
+        var direction = 'droite';
+        var finDuJeu = new Image();
+        finDuJeu.src = './image/gameover.png';
+        var cv1 = new Image();
+        cv1.src = './image/cv-partie-1.png';
+        var cv2 = new Image();
+        cv2.src = './image/cv-partie-2.png';
+        var cv3 = new Image();
+        cv3.src = './image/cv-final.png';
+        var image = new Image();
+        var monAnim;
+        var monTimeStamp;
+        var monTimeStamp2;
+        var monTimeStamp3;
+        var monTimeStamp4;
+        var monTimeStamp5;
+        var touche = 'desactiver';
+        image.src = './image/decors2-1.jpg';
+        var i = 0;
+        var rightPressed = false;
+        var rightPressed2 = false;
+        var rightPressed3 = false;
+        var persocaptain = new Image();
+        persocaptain.src = './image/captain.png';
+        var persoSrc = persocaptain.src;
+        var minotaur = new Image();
+        minotaur.src = './image/minotaur.png';
+        var play = new Image();
+        play.src = './image/tuto-game3.png';
+        var debutGame = false;
+        var collisionAttack = false;
+        var ilMarche = true;
+        var bigCv = false;
+        var finDeJeu = false;
+        var repeat = false;

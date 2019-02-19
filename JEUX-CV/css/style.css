@@ -1,0 +1,180 @@
+#myCanvas {
+
+    border: solid;
+    position: absolute;
+    display: block;
+    top: 169px;
+    left: 82px;
+    border:solid 5px red;
+
+}
+
+
+input {
+    color: red;
+    border: solid 2px blue;
+    border-radius: 25px;
+    background: white;
+    position: absolute;
+
+}
+
+#jouer {
+
+    top: 120px;
+    left: 540px;
+}
+
+.ici {
+    width: 10%;
+    position: absolute;
+
+}
+
+
+
+.lefond {
+    position: absolute;
+}
+
+#droite {
+    margin: auto;
+    margin-top: 620px;
+    margin-left: 1023px;
+    width: 50px;
+    height: 50px;
+    opacity: 0.3;
+}
+
+#gauche {
+    margin: auto;
+    margin-left: 67px;
+    margin-top: 620px;
+    width: 50px;
+    height: 50px;
+    opacity: 0.3;
+}
+
+#punch {
+    margin: auto;
+    margin-top: 620px;
+    margin-left: 798px;
+    width: 100px;
+    height: 50px;
+    opacity: 0.3;
+}
+
+#jump {
+    margin: auto;
+    margin-top: 620px;
+    margin-left: 221px;
+    width: 100px;
+    height: 50px;
+    opacity: 0.3;
+}
+#rejouer{
+    margin: auto;
+    margin-top: 140px;
+    margin-left: 400px;
+    width: 100px;
+    height: 30px;
+    
+}
+@media screen and (min-width: 1025px){
+    #droite {
+        display: none;
+    }
+    
+    #gauche {
+        display: none;
+    }
+    
+    #punch {
+        display: none;
+    }
+    
+    #jump {
+        display: none;
+    }
+    #rejouer{
+        display: none;
+        
+    }
+}
+/*
+@media screen and (min-width: 3001px) {
+    #canvas {
+        top: 220px;
+        left: 333px;
+        width: 50%;
+    }
+
+    .lefond {
+        width: 100%;
+        height: auto;
+    }
+
+}
+*/
+/*
+@media screen and (max-width: 319px) {
+
+    #canvas {
+        top: 100px;
+        left: 27px;
+        width: 36%;
+    }
+
+    .lefond {
+        width: 337px;
+    }
+
+    input {
+        top: 98px;
+        left: 27px;
+        width: 91%;
+    }
+}
+*/
+/*
+@media(max-width:567px){
+
+    #jouer {
+        top: 80px;
+        left: 157px;
+        width: 5%;
+    }
+    #myCanvas {
+        top: 107px;
+        left: 27px;
+        width: 88%;
+    }
+    .lefond {
+        width: 100%;
+    }
+    #droite {
+        margin-top: 280px;
+        margin-left: 320px;
+        width: 30px;
+        height: 30px;
+    }
+    #gauche {
+        margin-left: 10px;
+        margin-top: 280px;
+        width: 30px;
+        height: 30px;
+    }
+    #punch {
+        margin-top: 285px;
+        margin-left: 200px;
+        width: 75px;
+        height: 21px;
+    }
+    #jump {
+        margin-top: 285px;
+        margin-left: 116px;
+        width: 75px;
+        height: 21px;
+    }
+}
+*/
